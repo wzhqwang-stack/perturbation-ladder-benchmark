@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "dataset": "adamson",
+    "seed": 151,
+    "level": "T3-simulation",
+    "epochs": 20,
+    "device": "cuda",
+    "generated_at": "2026-10-31T04:08:56"
+  },
+  "summary": {
+    "pearson_deg": {
+      "mean": 0.8976378207946573,
+      "std": 0.08921499413166556
+    },
+    "mse_deg": {
+      "mean": 0.2546691474995176,
+      "std": 0.30317047807727643
+    },
+    "r2_deg": {
+      "mean": 0.7024908926955914,
+      "std": 0.3190841292442795
+    },
+    "jaccard_top20": {
+      "mean": 0.1807913643954131,
+      "std": 0.08769859961275824
+    },
+    "n_conditions": 21
+  }
+}

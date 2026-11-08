@@ -1,0 +1,28 @@
+{
+  "run_id": "cpa_t1_rpe1-to-k562_T1_s149_cpu20261031-212649-80d2",
+  "script": "D:\\资料\\课题\\虚拟细胞\\论文②\\scripts\\run_cpa_t1_rev.py",
+  "args": "",
+  "seed": 149,
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "lib_versions": {
+    "torch": "2.1.2+cpu",
+    "scanpy": "1.10.4",
+    "anndata": "0.9.2",
+    "scvi-tools": "0.20.3",
+    "cpa-tools": "0.8.8",
+    "numpy": "1.23.5",
+    "scipy": "1.12.0",
+    "pandas": "2.3.3",
+    "h5py": "3.16.0"
+  },
+  "inputs_sha256": {
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\processed\\replogle_rpe1_essential\\replogle_rpe1_essential.h5ad": "13de40dbcd8f94e3421f886ed96d408cafdd715f4bd4db773f080abb2c0c312a",
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\processed\\replogle_k562_essential\\replogle_k562_essential.h5ad": "7ed01d55eab19c3aef511d991a58009968e310bd4ac21d53a1f0be7e66b314d3"
+  },
+  "started_at": "2026-10-31T21:26:49",
+  "extra": {
+    "protocol": "source-train + target-ctrl-as-perturbed; ref-row derived-field copy"
+  },
+  "ended_at": "2026-10-31T22:19:52"
+}

@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "level": "T4",
+    "gse": "GSE125933",
+    "seed": 149,
+    "na_note": "GEARS/scGen/CPA mechanism-N/A for unseen drug perturbation",
+    "caveat": "cross-modality sc->bulk; no vehicle arm, UT24 as control",
+    "retrieval_top5_CKI": [
+      {
+        "line": "H1975",
+        "query": "CKI_1mg",
+        "k562_condition": "GBF1+ctrl",
+        "cosine": 0.4519008950651507
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_2mg",
+        "k562_condition": "SMC2+ctrl",
+        "cosine": 0.39682443632280273
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_1mg+G50",
+        "k562_condition": "CHEK1+ctrl",
+        "cosine": -0.32700944784472774
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_1mg+G75",
+        "k562_condition": "ATP6V1B2+ctrl",
+        "cosine": -0.26607120887113944
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_2mg+G50",
+        "k562_condition": "ATP6V1B2+ctrl",
+        "cosine": -0.29577084982614316
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_2mg+G75",
+        "k562_condition": "ATP6V1B2+ctrl",
+        "cosine": -0.26727905816893793
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_1mg",
+        "k562_condition": "PHB+ctrl",
+        "cosine": 0.4328133297114153
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_2mg",
+        "k562_condition": "SRBD1+ctrl",
+        "cosine": 0.38703161712041
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_1mg+G50",
+        "k562_condition": "ATP6V1B2+ctrl",
+        "cosine": -0.2763643291214392
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_1mg+G75",
+        "k562_condition": "TSG101+ctrl",
+        "cosine": -0.2112571826192129
+      }
+    ],
+    "retrieval_null_CKI": [
+      {
+        "line": "H1975",
+        "query": "CKI_1mg",
+        "obs_max_cos": 0.4519008950650476,
+        "null_max_mean": 0.07988339202500952,
+        "null_max_p95": 0.09606805406744083,
+        "p_emp": 0.000999000999000999,
+        "B": 1000
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_2mg",
+        "obs_max_cos": 0.39682443632268444,
+        "null_max_mean": 0.09320140418785088,
+        "null_max_p95": 0.10929383150134529,
+        "p_emp": 0.000999000999000999,
+        "B": 1000
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_1mg+G50",
+        "obs_max_cos": 0.21938032923580003,
+        "null_max_mean": 0.12131647506125887,
+        "null_max_p95": 0.1386041632152352,
+        "p_emp": 0.000999000999000999,
+        "B": 1000
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_1mg+G75",
+        "obs_max_cos": 0.200315395248372,
+        "null_max_mean": 0.08448586285482029,
+        "null_max_p95": 0.10126344825319204,
+        "p_emp": 0.000999000999000999,
+        "B": 1000
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_2mg+G50",
+        "obs_max_cos": 0.17488252947118554,
+        "null_max_mean": 0.0905082201335472,
+        "null_max_p95": 0.10668917716810035,
+        "p_emp": 0.000999000999000999,
+        "B": 1000
+      },
+      {
+        "line": "H1975",
+        "query": "CKI_2mg+G75",
+        "obs_max_cos": 0.1570736140870855,
+        "null_max_mean": 0.068478194286248,
+        "null_max_p95": 0.08457575476946108,
+        "p_emp": 0.000999000999000999,
+        "B": 1000
+      }
+    ],
+    "generated_at": "2026-11-02T23:41:27"
+  },
+  "summary": {
+    "linear_transfer": {
+      "pearson_deg": {
+        "mean": 0.5376346344657974,
+        "std": 0.301437292072743
+      },
+      "mse_deg": {
+        "mean": 0.6130951855274063,
+        "std": 0.1436642972719065
+      },
+      "r2_deg": {
+        "mean": -0.20013889074630833,
+        "std": 0.5957956399066365
+      },
+      "jaccard_top20": {
+        "mean": 0.004273504273504273,
+        "std": 0.010467904883688796
+      },
+      "n_conditions": 6
+    },
+    "mean_passthrough": {
+      "pearson_deg": {
+        "mean": 0.5310697540999909,
+        "std": 0.3005691390870506
+      },
+      "mse_deg": {
+        "mean": 0.6417368370632566,
+        "std": 0.16190481442428373
+      },
+      "r2_deg": {
+        "mean": -0.24300041578084527,
+        "std": 0.59626458400839
+      },
+      "jaccard_top20": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "n_conditions": 6
+    }
+  }
+}

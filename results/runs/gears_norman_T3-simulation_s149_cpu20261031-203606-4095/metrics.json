@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "source": "norman",
+    "target": "adamson",
+    "seed": 149,
+    "level": "T2",
+    "n_common_genes": 1731,
+    "epochs": 3,
+    "generated_at": "2026-10-31T20:37:40"
+  },
+  "summary": {
+    "n_conditions": 0
+  }
+}

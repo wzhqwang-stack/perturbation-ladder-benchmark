@@ -1,0 +1,29 @@
+{
+  "run_id": "cpa_tahoe_crc_T3-dose-interp_s149_cpu20261031-163250-a962",
+  "script": "D:\\资料\\课题\\虚拟细胞\\论文②\\scripts\\run_cpa_tahoe_interp.py",
+  "args": "",
+  "seed": 149,
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "lib_versions": {
+    "torch": "2.1.2+cpu",
+    "scanpy": "1.10.4",
+    "anndata": "0.9.2",
+    "scvi-tools": "0.20.3",
+    "cpa-tools": "0.8.8",
+    "numpy": "1.23.5",
+    "scipy": "1.12.0",
+    "pandas": "2.3.3",
+    "h5py": "3.16.0"
+  },
+  "inputs_sha256": {
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\processed\\tahoe\\tahoe_crc.h5ad": "16d6913b6d6d2181a62aa3ca1c91ccaf997d20f35b466275f35b8fc030770366",
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\processed\\tahoe\\tahoe_crc_splitobs_interp.csv": "63997a14a6cf3d01c74005aa97ed744b93f06362b3f670cbe956d704c3127162"
+  },
+  "started_at": "2026-10-31T16:32:50",
+  "extra": {
+    "hvg": 5000,
+    "protocol": "dose-extrapolation"
+  },
+  "ended_at": "2026-10-31T18:17:53"
+}

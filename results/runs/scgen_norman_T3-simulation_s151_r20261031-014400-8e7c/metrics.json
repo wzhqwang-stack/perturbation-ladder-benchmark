@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "dataset": "norman",
+    "seed": 151,
+    "level": "T3-simulation",
+    "protocol": "global_mean_delta",
+    "generated_at": "2026-10-31T01:44:56"
+  },
+  "summary": {
+    "pearson_deg": {
+      "mean": 0.7771911420883393,
+      "std": 0.1898207410973154
+    },
+    "mse_deg": {
+      "mean": 0.601165017337222,
+      "std": 0.4820399729774804
+    },
+    "r2_deg": {
+      "mean": 0.2949679969601344,
+      "std": 0.6294235091737774
+    },
+    "jaccard_top20": {
+      "mean": 0.08534572976913635,
+      "std": 0.0561396355330943
+    },
+    "n_conditions": 121
+  }
+}

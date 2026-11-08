@@ -1,0 +1,12 @@
+# large artifacts excluded from the repository (regenerable per RUNBOOK.md)
+*.h5ad
+*.pkl
+*.pt
+*.npy
+*.npz
+data_pyg/
+models/
+venv/
+__pycache__/
+*.pyc
+.zwork/

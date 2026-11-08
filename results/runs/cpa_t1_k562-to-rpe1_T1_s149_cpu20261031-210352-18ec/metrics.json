@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "replogle_k562_essential",
+    "target": "replogle_rpe1_essential",
+    "seed": 149,
+    "level": "T1",
+    "n_common_genes": 2832,
+    "limitation": "no target context",
+    "model_reused_from": "cpa_t1_k562-to-rpe1_T1_s149_cpu20261031-200627-5cc0",
+    "generated_at": "2026-10-31T21:04:51"
+  },
+  "summary": {
+    "n_conditions": 0
+  }
+}

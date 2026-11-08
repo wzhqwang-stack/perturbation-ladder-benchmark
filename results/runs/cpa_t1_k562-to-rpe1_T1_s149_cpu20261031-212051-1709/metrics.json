@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "source": "replogle_k562_essential",
+    "target": "replogle_rpe1_essential",
+    "seed": 149,
+    "level": "T1",
+    "n_common_genes": 2832,
+    "limitation": "no target context",
+    "model_reused_from": "cpa_t1_k562-to-rpe1_T1_s149_cpu20261031-200627-5cc0",
+    "generated_at": "2026-10-31T21:21:52"
+  },
+  "summary": {
+    "pearson_deg": {
+      "mean": 0.6534968331340126,
+      "std": 0.20153522047712066
+    },
+    "mse_deg": {
+      "mean": 0.6608964227003128,
+      "std": 0.46727527235078337
+    },
+    "r2_deg": {
+      "mean": 0.185480549840239,
+      "std": 0.551601903575482
+    },
+    "jaccard_top20": {
+      "mean": 0.023660860169271873,
+      "std": 0.0269609503763794
+    },
+    "n_conditions": 848
+  }
+}

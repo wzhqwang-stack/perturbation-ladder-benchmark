@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "level": "T4",
+    "gse": "GSE124715",
+    "seed": 149,
+    "na_note": "GEARS/scGen/CPA mechanism-N/A for unseen drug perturbation (no gene/embedding/delta for CKI)",
+    "caveat": "cross-modality sc->bulk, log-CPM both sides",
+    "retrieval_top5_CKI": [
+      {
+        "line": "HEPG2",
+        "query": "CKI@24h",
+        "k562_condition": "TTK+ctrl",
+        "cosine": 0.36484535777345334
+      },
+      {
+        "line": "HEPG2",
+        "query": "CKI@48h",
+        "k562_condition": "TTK+ctrl",
+        "cosine": 0.31259366302798974
+      },
+      {
+        "line": "MDA",
+        "query": "CKI@24h",
+        "k562_condition": "TTK+ctrl",
+        "cosine": 0.3636390741072749
+      },
+      {
+        "line": "MDA",
+        "query": "CKI@48h",
+        "k562_condition": "TTK+ctrl",
+        "cosine": 0.3106412023637576
+      },
+      {
+        "line": "HEPG2",
+        "query": "CKI@24h",
+        "k562_condition": "CNOT1+ctrl",
+        "cosine": 0.36315458004956197
+      },
+      {
+        "line": "HEPG2",
+        "query": "CKI@48h",
+        "k562_condition": "RNF20+ctrl",
+        "cosine": 0.3072719792275396
+      },
+      {
+        "line": "MDA",
+        "query": "CKI@24h",
+        "k562_condition": "CNOT1+ctrl",
+        "cosine": 0.355752289167861
+      },
+      {
+        "line": "MDA",
+        "query": "CKI@48h",
+        "k562_condition": "SUPT6H+ctrl",
+        "cosine": 0.3006137325873781
+      },
+      {
+        "line": "HEPG2",
+        "query": "CKI@24h",
+        "k562_condition": "NDC80+ctrl",
+        "cosine": 0.3473155697285022
+      },
+      {
+        "line": "HEPG2",
+        "query": "CKI@48h",
+        "k562_condition": "SUPT6H+ctrl",
+        "cosine": 0.2971690305447437
+      }
+    ],
+    "paper_anchor": "Cui & Adelson PLoS One 2020, PMID 32730293: CKI induces cell-cycle arrest & apoptosis",
+    "generated_at": "2026-11-01T07:10:17"
+  },
+  "summary": {
+    "linear_transfer": {
+      "pearson_deg": {
+        "mean": 0.47207869721838247,
+        "std": 0.26403040084092894
+      },
+      "mse_deg": {
+        "mean": 0.7371382528038201,
+        "std": 0.2322016806858692
+      },
+      "r2_deg": {
+        "mean": -0.3230231980083783,
+        "std": 0.580413417463767
+      },
+      "jaccard_top20": {
+        "mean": 0.016194331983805668,
+        "std": 0.01943641127608029
+      },
+      "n_conditions": 8
+    },
+    "mean_passthrough": {
+      "pearson_deg": {
+        "mean": 0.4570959162244427,
+        "std": 0.268068138691734
+      },
+      "mse_deg": {
+        "mean": 0.793155147935205,
+        "std": 0.2493466151107304
+      },
+      "r2_deg": {
+        "mean": -0.4089858469689911,
+        "std": 0.5783973102642038
+      },
+      "jaccard_top20": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "n_conditions": 8
+    }
+  }
+}

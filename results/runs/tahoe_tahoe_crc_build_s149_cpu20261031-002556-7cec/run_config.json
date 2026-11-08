@@ -1,0 +1,34 @@
+{
+  "run_id": "tahoe_tahoe_crc_build_s149_cpu20261031-002556-7cec",
+  "script": "D:\\资料\\课题\\虚拟细胞\\论文②\\scripts\\build_tahoe.py",
+  "args": "",
+  "seed": 149,
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "lib_versions": {
+    "torch": "2.11.0+cu128",
+    "scanpy": "1.12.4",
+    "anndata": "0.13.4",
+    "scvi-tools": "1.5.2",
+    "scgen": "2.1.1",
+    "cell-gears": "0.1.2",
+    "torch-geometric": "2.8.1",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "h5py": "3.16.0"
+  },
+  "inputs_sha256": {
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\raw\\tahoe\\cell_line_metadata.parquet": "67641f5bdd3fb077978ff1fec4d0d617490674bcd42850515ae3997194c29d4d",
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\raw\\tahoe\\sample_metadata.parquet": "33167f0ce28cff8357c503cda67d1c7fea200bff6918ee1de3c4f3549175b9d3",
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\raw\\tahoe\\drug_metadata.parquet": "7a04c7a6611e74c92253163b994ff0a47191928ee7511f1c2ca508cee0e79f28",
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\raw\\tahoe\\gene_metadata.parquet": "d6104d1ca570d94832be0d27ffe8b7e4e54cfd366c9080239219f9c406eb751c"
+  },
+  "started_at": "2026-10-31T00:25:56",
+  "extra": {
+    "seed": 149,
+    "quota_per_line": 25000,
+    "max_shards": 25
+  },
+  "ended_at": "2026-10-31T00:32:54"
+}

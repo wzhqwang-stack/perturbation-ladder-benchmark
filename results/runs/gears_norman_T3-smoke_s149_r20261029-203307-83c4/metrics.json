@@ -1,0 +1,5 @@
+{
+  "smoke": "ok",
+  "device": "cuda",
+  "epochs": 3
+}

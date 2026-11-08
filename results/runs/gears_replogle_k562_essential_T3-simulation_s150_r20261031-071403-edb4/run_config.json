@@ -1,0 +1,31 @@
+{
+  "run_id": "gears_replogle_k562_essential_T3-simulation_s150_r20261031-071403-edb4",
+  "script": "D:\\资料\\课题\\虚拟细胞\\论文②\\scripts\\run_gears.py",
+  "args": "--dataset replogle_k562_essential --seed 150 --epochs 20 --device cuda",
+  "seed": 150,
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "lib_versions": {
+    "torch": "2.11.0+cu128",
+    "scanpy": "1.12.4",
+    "anndata": "0.13.4",
+    "scvi-tools": "1.5.2",
+    "scgen": "2.1.1",
+    "cell-gears": "0.1.2",
+    "torch-geometric": "2.8.1",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "h5py": "3.16.0"
+  },
+  "inputs_sha256": {
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\processed\\replogle_k562_essential\\replogle_k562_essential.h5ad": "7ed01d55eab19c3aef511d991a58009968e310bd4ac21d53a1f0be7e66b314d3",
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\processed\\replogle_k562_essential\\splits\\split_T3-simulation_s150.json": "a6828719782d68f0bc8ee3f15e1a34ffee31546550cee440fe0b5fea75088990"
+  },
+  "started_at": "2026-10-31T07:14:04",
+  "extra": {
+    "device": "cuda",
+    "epochs": 20
+  },
+  "ended_at": "2026-10-31T10:19:32"
+}

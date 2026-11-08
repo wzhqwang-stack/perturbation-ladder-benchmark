@@ -1,0 +1,34 @@
+{
+  "run_id": "baselines_adamson_T3-simulation_s151_cpu20261102-233536-4261",
+  "script": "D:\\资料\\课题\\虚拟细胞\\论文②\\scripts\\baselines.py",
+  "args": "--dataset adamson --seed 151",
+  "seed": 151,
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "lib_versions": {
+    "torch": "2.11.0+cu128",
+    "scanpy": "1.12.4",
+    "anndata": "0.13.4",
+    "scvi-tools": "1.5.2",
+    "scgen": "2.1.1",
+    "cell-gears": "0.1.2",
+    "torch-geometric": "2.8.1",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "h5py": "3.16.0"
+  },
+  "inputs_sha256": {
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\processed\\adamson\\adamson.h5ad": "908debfa1475ed1918694f09c04232f832466043efe4ad48f444c98910d250da",
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\processed\\adamson\\splits\\split_T3-simulation_s151.json": "b7197fb4a956d9e14d975689924931f890202b6d3669099d51f662f42d6951b8"
+  },
+  "started_at": "2026-11-02T23:35:36",
+  "extra": {
+    "baselines": [
+      "mean_passthrough",
+      "linear",
+      "random"
+    ]
+  },
+  "ended_at": "2026-11-02T23:37:13"
+}

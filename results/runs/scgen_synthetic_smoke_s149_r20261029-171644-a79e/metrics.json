@@ -1,0 +1,11 @@
+{
+  "smoke": "ok",
+  "pred_shape": [
+    300,
+    100
+  ],
+  "latent_shape": [
+    600,
+    100
+  ]
+}

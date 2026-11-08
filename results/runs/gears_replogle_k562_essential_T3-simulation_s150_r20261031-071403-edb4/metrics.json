@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "dataset": "replogle_k562_essential",
+    "seed": 150,
+    "level": "T3-simulation",
+    "epochs": 20,
+    "device": "cuda",
+    "generated_at": "2026-10-31T10:19:05"
+  },
+  "summary": {
+    "pearson_deg": {
+      "mean": 0.8871099592636481,
+      "std": 0.12715714229992026
+    },
+    "mse_deg": {
+      "mean": 0.19790838930214363,
+      "std": 0.20448706598636332
+    },
+    "r2_deg": {
+      "mean": 0.6770064545855577,
+      "std": 0.3832327895898005
+    },
+    "jaccard_top20": {
+      "mean": 0.1315920896124308,
+      "std": 0.12148720379621515
+    },
+    "n_conditions": 272
+  }
+}

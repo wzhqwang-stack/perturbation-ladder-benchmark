@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "source": "replogle_rpe1_essential",
+    "target": "replogle_k562_essential",
+    "seed": 150,
+    "level": "T1",
+    "n_common_genes": 2832,
+    "limitation": "no target context",
+    "generated_at": "2026-11-02T20:15:54"
+  },
+  "summary": {
+    "pearson_deg": {
+      "mean": 0.706593146312992,
+      "std": 0.15164962142443986
+    },
+    "mse_deg": {
+      "mean": 0.49012010471784645,
+      "std": 0.23942093029091602
+    },
+    "r2_deg": {
+      "mean": 0.16917673084548804,
+      "std": 0.621241047600369
+    },
+    "jaccard_top20": {
+      "mean": 0.04119746184484195,
+      "std": 0.03315093003990266
+    },
+    "n_conditions": 848
+  }
+}

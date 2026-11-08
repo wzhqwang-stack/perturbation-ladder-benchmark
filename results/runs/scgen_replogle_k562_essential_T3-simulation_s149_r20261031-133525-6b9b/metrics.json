@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "dataset": "replogle_k562_essential",
+    "seed": 149,
+    "level": "T3-simulation",
+    "protocol": "global_mean_delta",
+    "generated_at": "2026-10-31T13:36:49"
+  },
+  "summary": {
+    "pearson_deg": {
+      "mean": 0.8118416954659897,
+      "std": 0.1714417525437717
+    },
+    "mse_deg": {
+      "mean": 0.3864296983127928,
+      "std": 0.3098337080903257
+    },
+    "r2_deg": {
+      "mean": 0.3622223758925048,
+      "std": 0.6257846152063449
+    },
+    "jaccard_top20": {
+      "mean": 0.04419289458756534,
+      "std": 0.04431016584983892
+    },
+    "n_conditions": 272
+  }
+}

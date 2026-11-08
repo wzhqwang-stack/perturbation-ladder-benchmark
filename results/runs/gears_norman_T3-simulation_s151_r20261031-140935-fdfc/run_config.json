@@ -1,0 +1,31 @@
+{
+  "run_id": "gears_norman_T3-simulation_s151_r20261031-140935-fdfc",
+  "script": "D:\\资料\\课题\\虚拟细胞\\论文②\\scripts\\run_gears.py",
+  "args": "--dataset norman --seed 151 --epochs 20 --device cuda",
+  "seed": 151,
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "lib_versions": {
+    "torch": "2.11.0+cu128",
+    "scanpy": "1.12.4",
+    "anndata": "0.13.4",
+    "scvi-tools": "1.5.2",
+    "scgen": "2.1.1",
+    "cell-gears": "0.1.2",
+    "torch-geometric": "2.8.1",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "h5py": "3.16.0"
+  },
+  "inputs_sha256": {
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\processed\\norman\\norman.h5ad": "f822b7ce70cde3f9121a712d6fb51d3458bae2342549b787d0479c0bd041dd31",
+    "D:\\资料\\课题\\虚拟细胞\\论文②\\data\\processed\\norman\\splits\\split_T3-simulation_s151.json": "3beb066b02e2529fd4fd53e9bc691c6cf5baa06b5583b44d5b88f6d525a048d8"
+  },
+  "started_at": "2026-10-31T14:09:36",
+  "extra": {
+    "device": "cuda",
+    "epochs": 20
+  },
+  "ended_at": "2026-10-31T15:11:39"
+}

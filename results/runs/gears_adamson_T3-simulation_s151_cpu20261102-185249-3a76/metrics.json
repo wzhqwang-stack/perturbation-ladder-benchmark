@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "source": "adamson",
+    "target": "norman",
+    "seed": 151,
+    "level": "T2",
+    "n_common_genes": 1731,
+    "epochs": 3,
+    "generated_at": "2026-11-02T18:58:32"
+  },
+  "summary": {
+    "pearson_deg": {
+      "mean": 0.6812793733256463,
+      "std": 0.17174485958465657
+    },
+    "mse_deg": {
+      "mean": 0.8318401635740633,
+      "std": 0.4059544214285626
+    },
+    "r2_deg": {
+      "mean": -0.14288306561806385,
+      "std": 1.198362936816443
+    },
+    "jaccard_top20": {
+      "mean": 0.07635343212136858,
+      "std": 0.03714443607397149
+    },
+    "n_conditions": 276
+  }
+}

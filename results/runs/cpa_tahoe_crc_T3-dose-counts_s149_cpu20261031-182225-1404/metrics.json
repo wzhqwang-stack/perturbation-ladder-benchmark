@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "dataset": "tahoe_crc",
+    "seed": 149,
+    "level": "T3-dose",
+    "protocol": "dose-extrapolation(ood=highest dose per drug)",
+    "generated_at": "2026-10-31T19:19:57"
+  },
+  "summary": {
+    "pearson_deg": {
+      "mean": 0.1697559594694135,
+      "std": 0.11917674610988675
+    },
+    "mse_deg": {
+      "mean": 1066.9647145881852,
+      "std": 818.9654591494319
+    },
+    "r2_deg": {
+      "mean": -0.27708084308843817,
+      "std": 0.04439912509627975
+    },
+    "jaccard_top20": {
+      "mean": 0.3503445915904986,
+      "std": 0.13931245850223695
+    },
+    "n_conditions": 1135
+  }
+}
